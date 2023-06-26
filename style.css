@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+    background-color:teal;
+}
+p, h1, a, h2{
+    font-family: 'VT323', monospace;
+}
+.wrapper{
+    width:1440px;
+    min-height:200px;
+    margin:auto;
+}
+.header{
+    width:100%;
+    height:323px;
+    background-image:url(/imgs/image\ \(18\).png);
+    background-size: cover;
+}
+.content{
+    width:1440px;
+    min-height:200px;
+    margin:auto;
+}
+.info{
+    padding-top:212px;
+    width:1440px;
+    height:436px;
+    background-image:url(/imgs/Group\ 1\ \(1\).png);
+}
+.info-box{
+    width:1392px;
+    height:224px;
+    margin-left:24px;
+    margin-right:24px;
+    background-color:white;
+    font-size:52px; 
+    color:black;
+}
+.info-box p{
+    margin:0;
+    text-align:justify;
+}
+.platform{
+    width:1440px;
+    height:1700px;
+}
+.sonic{
+    width:1440px;
+    height:750px;
+    background-image:url(/imgs/Rectangle\ 2\ \(1\).png);
+    display:flex;
+}
+.sonic img{
+    margin-right:36px;
+    margin-left:27px;
+    margin-top:175px;
+    width:400px;
+    height:400px;
+}
+.sonic-box{
+    width:513px;
+    height:740px;
+    background-color:black;
+    opacity:70%;
+    font-size:35px;
+    padding-top:10px;
+    color:blue;
+    font-family: 'VT323', monospace;
+    text-align:justify;
+}
+.mario{
+    width:1440px;
+    height:950px;
+    background-image:url("/imgs/image\ \(18\).png");
+    background-size:cover;
+}
