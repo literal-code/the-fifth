@@ -3,7 +3,7 @@
 body{
     background-color:teal;
 }
-p, h1, a, h2{
+*{
     font-family: 'VT323', monospace;
 }
 .wrapper{
@@ -14,7 +14,7 @@ p, h1, a, h2{
 .header{
     width:100%;
     height:323px;
-    background-image:url(/imgs/image\ \(18\).png);
+    background-image:url(/imgs/header\ \(4\).png);
     background-size: cover;
 }
 .content{
@@ -34,6 +34,7 @@ p, h1, a, h2{
     margin-left:24px;
     margin-right:24px;
     background-color:white;
+    opacity:70%;
     font-size:52px; 
     color:black;
 }
@@ -41,9 +42,9 @@ p, h1, a, h2{
     margin:0;
     text-align:justify;
 }
-.platform{
+.platform, .shooter, .racing, .strategy{
     width:1440px;
-    height:1700px;
+    min-height:200px;
 }
 .sonic{
     width:1440px;
@@ -74,4 +75,99 @@ p, h1, a, h2{
     height:950px;
     background-image:url("/imgs/image\ \(18\).png");
     background-size:cover;
+}
+.mario-box{
+    width:1016px;
+    height:400px;
+    font-family: 'VT323', monospace;
+    color:#CC8300;
+    margin-top:15px;
+    margin-left:245px;
+    font-size:48px;
+    background-color:black;
+    opacity:70%;
+}
+.doom{
+    width:1440px;
+    height:900px;
+    background-image:url(/imgs/image\ 13.png);
+    display:flex;
+}
+.doom-box{
+    width:634px;
+    height:394px;
+    margin-top:175px;
+    margin-left:390px;
+    font-family: 'VT323', monospace;
+    color:red;
+    background-color:black;
+    opacity:70%;
+    font-size:33px;
+}
+.doom img{
+    width:326px;
+    height:326px;
+    margin-top:208px;
+    margin-left:45px;
+}
+.hl{
+    width:1440px;
+    height:500px;
+    background-image:url(/imgs/image\ 15.png);
+    padding-top:400px;
+}
+.hl-box{
+    width:567px;
+    height:408px;
+    background-color:black;
+    opacity:70%;
+    font-family: 'VT323', monospace;
+    font-size:29px;
+    margin-left:1px;
+    color:#936333;
+    text-align:justify;
+}
+.nfs{
+    width:1440px;
+    height:710px;
+    background-image:url(/imgs/image\ 22.png);
+    padding-top:100px;
+}
+.nfs-box{
+    width:837px;
+    height:300px;
+    background-color:black;
+    color:red;
+    opacity:70%;
+    font-family:'VT323', monospace;
+    font-size:29px;
+    margin-left:301px;
+}
+.cnc{
+    width:1440px;
+    height:381px;
+    background-image:url(/imgs/image\ 24.png);
+    padding-top:575px;
+}
+.cnc-box{
+   width:804px;
+   height:310px;
+   margin-left:20px;
+   background-color:black;
+   opacity:70%;
+   font-family:'VT323', monospace;
+   font-size:28px;
+   color:#936333;
+}
+.footer{
+    width:1440px;
+    height:70px;
+    background: linear-gradient(#F4D478, teal);
+    font-size:30px;
+    text-align:center;
+    color:black;
+    padding-top:30px;
+}
+.footer p{
+    margin:0;
 }
