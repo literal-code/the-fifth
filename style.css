@@ -14,7 +14,7 @@ body{
 .header{
     width:100%;
     height:323px;
-    background-image:url(imgs/header\ \(4\).png);
+    background-image:url("/imgs/header\ \(4\).png");
     background-size: cover;
 }
 .content{
@@ -26,7 +26,7 @@ body{
     padding-top:212px;
     width:1440px;
     height:436px;
-    background-image:url(imgs/Group\ 1\ \(1\).png);
+    background-image:url("/imgs/Group\ 1\ \(1\).png");
 }
 .info-box{
     width:1392px;
@@ -49,7 +49,7 @@ body{
 .sonic{
     width:1440px;
     height:750px;
-    background-image:url(imgs/Rectangle\ 2\ \(1\).png);
+    background-image:url("/imgs/Rectangle\ 2\ \(1\).png");
     display:flex;
 }
 .sonic img{
@@ -73,7 +73,7 @@ body{
 .mario{
     width:1440px;
     height:950px;
-    background-image:url(imgs/image\ \(18\).png);
+    background-image:url("/imgs/image\ \(18\).png");
     background-size:cover;
 }
 .mario-box{
@@ -90,7 +90,7 @@ body{
 .doom{
     width:1440px;
     height:900px;
-    background-image:url(imgs/image\ 13.png);
+    background-image:url("/imgs/image\ 13.png");
     display:flex;
 }
 .doom-box{
@@ -113,7 +113,7 @@ body{
 .hl{
     width:1440px;
     height:500px;
-    background-image:url(imgs/image\ 15.png);
+    background-image:url("/imgs/image\ 15.png");
     padding-top:400px;
 }
 .hl-box{
@@ -130,7 +130,7 @@ body{
 .nfs{
     width:1440px;
     height:710px;
-    background-image:url(imgs/image\ 22.png);
+    background-image:url("imgs/image\ 22.png");
     padding-top:100px;
 }
 .nfs-box{
@@ -146,7 +146,7 @@ body{
 .cnc{
     width:1440px;
     height:381px;
-    background-image:url(imgs/image\ 24.png);
+    background-image:url("imgs/image\ 24.png");
     padding-top:575px;
 }
 .cnc-box{
